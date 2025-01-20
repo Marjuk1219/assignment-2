@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* shared styles */
+/* nav styles */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-name {
+    display: flex;
+}
+
+.nav-link {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-link-btn {
+    display: flex;
+}
+
+#nav-link-1 {
+    color: #FEA301;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#nav-link-2 {
+    color: #01ACFD;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#nav-link-3 {
+    color: #05D4DF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#nav-link-3 {
+    color: #05D4DF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#nav-link-4 {
+    color: #5D58EF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.btn-1 {
+    border-radius: 12px;
+    background-color: #FEA301;
+    display: flex;
+    width: 190px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+
+/* banner syles */
+.banner {
+    display: flex;
+}
+
+.banner-content {
+    margin-right: 50px;
+}
+
+.banner-header {
+    max-width: 588px;
+    max-height: 183px;
+}
+
+.banner-paragraph {
+    max-width: 644px;
+    max-height: 50px;
+}
+
+#btn-2 {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #111;
+}
