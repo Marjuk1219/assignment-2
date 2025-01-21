@@ -9,6 +9,7 @@
 
 .bg-img {
     background-image: url(../assets/bg.png);
+    /* background: linear-gradient( to top ,#FFF4DC , #FFFFFF); */
 }
 
 /* shared styles */
@@ -132,11 +133,12 @@
 
 /* body styles */
 main {
-    max-width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0 140px;
+    /* max-width: auto; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .body-title-1 {
@@ -152,16 +154,18 @@ main {
     height: 57.5px;
 }
 
-.curriculum{
+.curriculum {
     display: flex;
     /* justify-content: center;
     align-items: center; */
     gap: 29px;
- 
-}
-   
 
-#curriculum-1 , #curriculum-2 , #curriculum-3 {
+}
+
+
+#curriculum-1,
+#curriculum-2,
+#curriculum-3 {
     padding: 53px 40px;
     display: flex;
     width: 367.805px;
@@ -190,13 +194,78 @@ main {
     background: linear-gradient(#DEF5FF, rgba(255, 255, 255, 0.00)), #FFF;
     box-shadow: 0 0 30px 1px;
 }
+
 #curriculum-2 {
     border: 1px solid #FFF4DC;
-    background: linear-gradient( #FFF4DC , rgba(255, 255, 255, 0.00)), #FFF;
+    background: linear-gradient(#FFF4DC, rgba(255, 255, 255, 0.00)), #FFF;
 
 
 }
+
 #curriculum-3 {
     border: 1px solid #F2E8FF;
-    background: linear-gradient(#EEE1FF , rgba(255, 255, 255, 0.00)), #FFF
+    background: linear-gradient(#EEE1FF, rgba(255, 255, 255, 0.00)), #FFF
+}
+
+/* story-section */
+.stories {
+    margin: 80px 0;
+    display: flex;
+    gap: 19px;
+    flex: 1;
+}
+
+#story-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 540.267px;
+    max-height: 630.518px;
+    border-radius: 16px;
+    background: #FFF;
+    gap: 62px;
+}
+
+.story-img {
+    border-radius: 16px 16px 0 0;
+}
+
+.story-header {
+    padding: 0px 100px 0px 38px;
+}
+
+.stories-description {
+    padding: 0px 69px 0 38px;
+}
+
+.more-stories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.all-same {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.same-header {
+    padding: 0px 54px 29px 0;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn-3 {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 12px;
+    background-color: #111;
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
