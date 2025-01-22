@@ -13,6 +13,10 @@
 }
 
 /* shared styles */
+.hide {
+    display: none;
+}
+
 /* header styles */
 .header {
     /* margin: 0px 141px 0px 141px;
@@ -41,6 +45,12 @@
 
 .logo-name {
     display: flex;
+}
+
+#school-name {
+    color: #111;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .nav-link {
@@ -97,13 +107,31 @@
 
 }
 
+@media  screen and (max-width: 576px) {
+    #school-name , .nav-link , .btn-1{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        /* justify-content: space-around; */
+    }
+}
+
 /* banner syles */
 .banner {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
 }
-
+@media screen and (max-width: 576px){
+    .banner{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 16px;
+        max-width: 100%;
+    }
+}
 .banner-content {
     margin-right: 50px;
 }
@@ -146,6 +174,11 @@
     align-items: center;
 }
 
+/* .background-gradient{
+    background: linear-gradient(to top , #FFF4DC , white
+    );
+} */
+
 .body-title-1 {
     margin: 60px 490px 80px 490px;
     display: flex;
@@ -158,9 +191,20 @@
     width: 460.609px;
     height: 57.5px;
 }
-
+@media screen and (max-width: 576px) {
+    .curriculum-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .curriculum{
+       
+        flex-direction: column;
+    }
+    
+}
 .curriculum {
     display: flex;
+    
     /* justify-content: center;
     align-items: center; */
     gap: 29px;
@@ -211,13 +255,15 @@
     border: 1px solid #F2E8FF;
     background: linear-gradient(#EEE1FF, rgba(255, 255, 255, 0.00)), #FFF
 }
-.icon-slider{
+
+.icon-slider {
     margin: 80px 0 121px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
+
 .icon-1 {
     display: flex;
     width: 50px;
@@ -226,9 +272,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background:  #FEA301;
+    background: #FEA301;
 
 }
+
 .icon-2 {
     display: flex;
     width: 50px;
@@ -237,7 +284,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background:  #FEA301;
+    background: #FEA301;
 
 }
 
